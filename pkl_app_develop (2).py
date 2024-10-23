@@ -32,7 +32,4 @@ predictions = loaded_model.predict(X_test[:5])
 # Output predictions
 print('Predictions for the first 5 test samples:', predictions)
 
-
-# Save the script to a pickle file
-with open('combined_script.pkl', 'wb') as script_file:
-    pickle.dump(script_file)
+# If you want to save this script, you can manually save it as a .py file
